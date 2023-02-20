@@ -2,25 +2,27 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f5f5f5;
+    background-color: #5b616a;
   }
   
   .main-container {
     max-width: 800px;
     margin: 0 auto;
     padding: 30px;
-    background-color: #fff;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    background-color: #aba9c3;
+    box-shadow: 0px 0px 5px #000;
   }
   
   h1 {
     font-size: 36px;
     margin-bottom: 20px;
+    color: #ced3dc;
     text-align: center;
   }
   
   h2 {
     font-size: 24px;
+    color: #ced3dc;
     margin-bottom: 10px;
   }
   
@@ -32,6 +34,7 @@ body {
   
   li {
     margin-bottom: 10px;
+    color: #fcf7f8;
   }
   
   strong {
