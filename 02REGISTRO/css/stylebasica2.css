@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0%;
+}
+
+body{
+   
+    background-color: #ffeedd;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-content: center;
+}
+
+.userlogin{
+    background-color: #241623;
+    height: 100%;
+    width: 35%;
+    text-align: center;
+    margin-top: 3%;
+    border-radius: 3%;
+}
+
+.title{
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    text-transform:none;
+    font-size: 20px;
+    padding-top: 7px;
+    color: #3c787e;
+}
+.userid{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 3%;
+    color: #3c787e;
+}
+
+.input_user{
+    margin-top: 1pc;
+    background-color: #ffeedd;
+    border-radius: 1pc;
+    
+}
+
+.userpassword{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 3%;
+    color: #3c787e;
+}
+.input_pass{
+    margin-top: 1pc;
+    background-color: #ffeedd;
+    border-radius: 1pc;
+}
+
+.ingresa{
+    margin-top: 10px;
+}
+
+.buttons{
+    margin-top: 0.5pc;
+    margin-bottom: 0.5pc;
+
+}
+
+.nuevacuenta{
+    margin-top: 0.5pc;
+}
+
+.contenedor{
+    background-color: #241623;
+    border-radius: 0.5pc;
+}
+
+.title2{
+    color: #3c787e;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nombre{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #3c787e;
+    margin-top: 0.5pc;
+}
+
+.paterno{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #3c787e;
+    margin-top: 0.5pc;
+}
+
+.materno{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #3c787e;
+    margin-top: 0.5pc;
+}
+
+.correo{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #3c787e;
+    margin-top: 0.5pc;
+}
+
+.password{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #3c787e;
+    margin-top: 0.5pc;
+}
+.confirmar{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #3c787e;
+    margin-top: 0.5pc;
+}
+
+.input_pass2{
+    margin-top: 1pc;
+    background-color: #ffeedd;
+    border-radius: 1pc;
+}
+
+.confirmar_input{
+    background-color: #ffeedd;
+    margin-top: 1pc;
+    margin-bottom: 1pc;
+    border-radius: 5px;
+    border-style: none;
+}
+
+
+
+
