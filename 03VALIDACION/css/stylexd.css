@@ -1,0 +1,88 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+
+  body {
+    background-color: #2c3e50;
+    margin: 1rem;
+  }
+  
+
+  .intro {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    background-color: #3498db;
+    text-align: justify;
+    border-radius: 15px;
+    margin: 1rem;
+    padding: 20px;
+  }
+  
+  .intro h1 {
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #fff;
+  }
+
+  .main-container {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    background-color: #3498db;
+    text-align: justify;
+    border-radius: 15px;
+    margin: 1rem;
+    padding: 20px;
+  }
+  
+  .content-formulario input {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    background-color: #ecf0f1;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  
+  #borrar,
+  #enviar {
+    font-size: 15px;
+    height: 40px;
+    padding: 0 20px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #3498db;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  #borrar:hover,
+  #enviar:hover {
+    background-color: #2980b9;
+  }
+  
+  .menu {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    background-color: #3498db;
+    text-align: center;
+    border-radius: 15px;
+    margin: 1rem;
+    padding: 20px;
+  }
+  
+    
+    
+    
+    
