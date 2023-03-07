@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exámen</title>
+    <link rel="stylesheet" href="./css/stylexd.css">
+</head>
+<body>
+    <main>
+        <form id="interest-form">
+          <fieldset>
+            <legend>Calcula el interés compuesto, recuerda que te estafaré :D</legend>
+            <div class="form-group">
+              <label for="capital">Capital inicial:</label>
+              <input type="text" id="capital" name="capital" oninput="checkInput(this)" pattern="^[0-9]{1,11}$">
+            </div>
+            <div class="form-group">
+              <label for="tasa">Tasa de interés anual:</label>
+              <input type="text" id="tasa" name="tasa" oninput="checkInput(this)" pattern="^[0-9]{1,4}([.][0-9]{1,2})?$">
+            </div>
+            <div class="form-group">
+              <label for="periodos">Número de meses:</label>
+              <input type="text" id="periodos" name="periodos" oninput="checkInput(this)" pattern="^[0-9]{1,5}$">
+            </div>
+          </fieldset>
+      
+          <div class="form-actions">
+            <button type="button" onclick="calcularInteres()">Calcular</button>
+            <button type="button" onclick="borrarDatos()">Borrar datos</button>
+          </div>
+        </form>
+      
+        <section id="results-section">
+          <h2>Resultados</h2>
+          <div id="resultado"></div>
+      
+          <h2>Tabla de amortización</h2>
+          <table id="tablaAmortizacion">
+            <thead>
+              <tr>
+                <th>Período</th>
+                <th>Saldo inicial</th>
+                <th>Interés generado</th>
+                <th>Pago del período</th>
+                <th>Saldo final</th>
+              </tr>
+            </thead>
+            <tbody>
+            </tbody>
+          </table>
+        </section>
+      </main>
+      
+      <script src="./js/metodo.js"></script>
+      
+</body>
+</html>
