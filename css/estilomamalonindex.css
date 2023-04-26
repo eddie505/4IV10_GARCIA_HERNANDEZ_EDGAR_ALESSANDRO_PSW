@@ -1,32 +1,42 @@
-*{
-    margin: 0%;
-    padding: 0%;
-}
-.container{
+/* establecer el fondo en un tono morado oscuro */
+body {
+    background-color: #4c2a4c;
+  }
+  
+  /* establecer la tipografía */
+  body, h1, a {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* establecer el color de la fuente en blanco */
+  body, h1, a {
+    color: #fff;
+  }
+  
+  /* estilo para el contenedor */
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
     text-align: center;
-    align-items: center;
-    align-content:center;
-    flex-direction: column;
-    padding-top: 3%;
-    font-family: Arial, Helvetica, sans-serif
-}
-
-.practica1{
-    padding-top: 5px;
-    text-transform: uppercase;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-}
-
-.practica2{
-    padding-top: 5px;
-    text-transform: uppercase;
-    font-family:Arial, Helvetica, sans-serif;
-    text-align: center;
-}
-.practica3{
-    padding-top: 5px;
-    text-transform: uppercase;
-    font-family:Arial, Helvetica, sans-serif;
-    text-align: center;
-}
+  }
+  
+  /* estilo para los enlaces */
+  a {
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #8d5e8d;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  a:hover {
+    background-color: #b68fb6;
+  }
+  a {
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    background-color: #8d5e8d;
+    transition: background-color 0.2s ease-in-out;
+  }

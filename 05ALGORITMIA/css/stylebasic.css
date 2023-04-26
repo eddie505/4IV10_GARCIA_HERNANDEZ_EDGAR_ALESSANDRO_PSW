@@ -1,0 +1,272 @@
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin: 0;
+  }
+  
+  .Container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .problema-title {
+    color: #1f1f1f;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    animation: pulse 1s infinite;
+  }
+  
+  .problema-container h3 {
+    color: #555;
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    text-align: justify;
+  }
+  
+
+  .problema-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+  }
+  
+  .problema-input {
+    width: 100%;
+    height: 40px;
+    padding: 0 10px;
+    margin-bottom: 1rem;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    transition: border-color 0.3s ease-in-out;
+  }
+  
+  .problema-button {
+    background-color: #1f1f1f;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-top: 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .problema-table {
+    border-collapse: collapse;
+    margin-bottom: 2rem;
+  }
+  
+  .problema-table td,
+  .problema-table th {
+    border: 2px solid #ddd;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .problema-output {
+    font-family: monospace;
+    font-size: 1.2rem;
+    margin-top: 2rem;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    background-color: #f5f5f5;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    padding: 1rem;
+  }
+  
+  
+  .problema-button:hover {
+    background-color: #333;
+    }
+    
+    .problema-error {
+    color: red;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    }
+    
+    .problema-success {
+    color: green;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    }
+
+    .problema-list {
+    margin-top: 2rem;
+    }
+    
+    .problema-list li {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    }
+    
+    .problema-link {
+    color: #1f1f1f;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+    }
+    
+    .problema-link:hover {
+    color: #333;
+    }
+    
+    .problema-header {
+    margin-bottom: 2rem;
+    text-align: center;
+    }
+    
+   .problema-input-label {
+    display: block;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    }
+    
+    .problema-bold {
+    font-weight: bold;
+    }
+    
+    .problema-italic {
+    font-style: italic;
+    }
+    
+    .problema-underline {
+    text-decoration: underline;
+    }
+    
+    .problema-strikethrough {
+    text-decoration: line-through;
+    }
+    
+    .problema-image {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+    margin-top: 2rem;
+    }
+    
+    .problema-text-center {
+    text-align: center;
+    }
+    
+    .problema-text-justify {
+    text-align: justify;
+    }
+    
+    .problema-text-left {
+    text-align: left;
+    }
+    
+    .problema-text-right {
+    text-align: right;
+    }
+
+    .problema-uppercase {
+    text-transform: uppercase;
+    }
+    
+    .problema-lowercase {
+    text-transform: lowercase;
+    }
+    
+    .problema-capitalize {
+    text-transform: capitalize;
+    }
+    
+    .problema-text-shadow {
+    text-shadow: 2px 2px #333;
+    }
+    
+    .problema-box-shadow {
+    box-shadow: 2px 2px #333;
+    }
+    
+    .problema-border {
+    border: 2px solid #333;
+    border-radius: 5px;
+    }
+    .problema-margin-top {
+        margin-top: 2rem;
+        }
+        
+        .problema-margin-bottom {
+        margin-bottom: 2rem;
+        }
+        
+        .problema-margin-right {
+        margin-right: 2rem;
+        }
+        
+        .problema-margin-left {
+        margin-left: 2rem;
+        }
+        
+        .problema-padding {
+        padding: 1rem;
+        }
+        
+        .problema-padding-top {
+        padding-top: 1rem;
+        }
+        
+        .problema-padding-bottom {
+        padding-bottom: 1rem;
+        }
+        
+        .problema-padding-right {
+        padding-right: 1rem;
+        }
+        
+        .problema-padding-left {
+        padding-left: 1rem;
+        }
+        
+        .problema-border-top {
+        border-top: 2px solid #333;
+        }
+        
+        .problema-border-bottom {
+        border-bottom: 2px solid #333;
+        }
+        
+        .problema-border-right {
+        border-right: 2px solid #333;
+        }
+        
+        .problema-border-left {
+        border-left: 2px solid #333;
+        }
+        
+        .problema-max-width {
+        max-width: 1200px;
+        margin: auto;
+        }
+        
+        .problema-font {
+        font-family: Arial, sans-serif;
+        }
+        
+        .problema-font-size {
+        font-size: 1.2rem;
+        }
+        
+        .problema-font-color {
+        color: #1f1f1f;
+        }
+        
+        .problema-background-color {
+        background-color: #fff;
+        }
